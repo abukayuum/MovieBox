@@ -237,6 +237,7 @@ def main():
     elif args.command == "providers":
         run_providers()
 
-
+print(f"{BOLD}{CYAN}{APP_NAME} v{APP_VERSION}{RESET}")
+print(f"{BOLD}{CYAN}{APP_NAME} v{APP_VERSION}{RESET}")
 if __name__ == "__main__":
     main()
